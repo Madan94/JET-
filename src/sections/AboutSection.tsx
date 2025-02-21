@@ -1,5 +1,4 @@
 import Heading from "../components/Heading";
-import { SectionProps } from "../types";
 
 const tags = [
     "Efficient Cargo Transportation",

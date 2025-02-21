@@ -14,7 +14,10 @@ export default function PromoSection() {
                 <span className="text-gray-200">
                     Let's Connect and grow Together with blockchain!
                 </span>
-                <Button outline>Mail us</Button>
+                <div style={{display:"flex",flexDirection:"row",gap:"20px"}} >
+                    <Button outline><a href="mailto:contact@justeverything.app" target="_blank">Mail us</a></Button>
+                    <Button outline><a href="https://x.com/JET_ONDEMAND" target="_blank">Connect on Twitter</a></Button>
+                </div>
             </article>
         </section>
     );

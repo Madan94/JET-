@@ -11,8 +11,8 @@ export default function MainSection() {
                         We connect businesses and truck owners for efficient, cost-effective logistics solutions powered by AI and blockchain technology.
                 </span>
                 <div className="row gap-4">
-                    <Button>Explore us</Button>
-                    <Button outline={true}>Join Our Community</Button>
+                    <Button><a href="#">Explore us</a></Button>
+                    <Button outline={true}><a href="https://x.com/JET_ONDEMAND" target="_blank">Join Our Community</a></Button>
                 </div>
             </div>
             <div className="relative md:w-1/2 col gap-4 center">

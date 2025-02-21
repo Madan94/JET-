@@ -3,7 +3,7 @@ import { FaGithub, FaBitcoin } from "react-icons/fa";
 import { RiDiscordFill } from "react-icons/ri";
 import { appLinks } from "../constants";
 
-const socialIcons = [AiOutlineTwitter, FaBitcoin, RiDiscordFill, FaGithub];
+const socialIcons = [AiOutlineTwitter];
 
 const links = [
     ["MarketPlace", "About us", "Contact us",],
@@ -21,8 +21,9 @@ export default function FooterSection() {
                         {socialIcons.map((Icon, i) => (
                             <a
                                 key={i}
-                                href="#"
-                                className="hover:text-white/50 text-white"
+                                href="https://x.com/JET_ONDEMAND"
+                                className="hover:text-blue-500 text-black bg-white p-2 br"
+                                style={{borderRadius:"5px"}}
                             >
                                 <Icon size={18} color="inherit" />
                             </a>
@@ -44,7 +45,7 @@ export default function FooterSection() {
                                     <span className="font-redzone mb-2">{link}</span>
                                 ) : (
                                     <a
-                                        href={`#${appLinks[i]}`}
+                                        href={`#${appLinks[i]}`} target="_blank"
                                         className={`font-nominee text-app_gray text-xs hover:text-white`}
                                     >
                                         {link}

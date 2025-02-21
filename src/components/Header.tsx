@@ -29,7 +29,7 @@ export default function Header() {
             <div className="row items-center gap-12">
                 <ThemeControl />
                 <div className="hidden sm:block">
-                    <Button>Connect with us</Button>
+                    <Button><a href="https://x.com/JET_ONDEMAND" target="_blank">Connect with us</a></Button>
                 </div>
             </div>
         </header>
