@@ -6,9 +6,6 @@ import { appLinks } from "../constants";
 
 const socialIcons = [
     { icon: AiOutlineTwitter, link: "https://x.com/JET_ONDEMAND" },
-    { icon: FaGithub, link: "https://github.com/yourprofile" },
-    { icon: RiDiscordFill, link: "https://discord.com/invite/yourserver" },
-    { icon: FaBitcoin, link: "https://bitcoin.org" },
 ];
 
 const links = [
